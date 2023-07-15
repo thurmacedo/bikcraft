@@ -1,0 +1,13 @@
+.texto-g {
+  font-size: 64px;
+  font-family: "poppins";
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.texto-m {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+}

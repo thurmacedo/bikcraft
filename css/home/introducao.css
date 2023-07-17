@@ -6,18 +6,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .introducao img {
   height: 100%;
   object-fit: cover;
-  border-radius: 4px;
 }
 
 .introducao h1 {

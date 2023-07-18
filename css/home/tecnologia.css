@@ -1,0 +1,84 @@
+.tec-bg {
+  background: var(--c12);
+  box-shadow: inset 0px 80px var(--c0), inset 0px -80px var(--c0);
+}
+
+.tec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tec-content {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.tec-content > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tec-content h2 {
+  margin-bottom: 32px;
+}
+
+.tec-content > p {
+  margin-bottom: 20px;
+}
+
+.tec a {
+  margin-bottom: 80px;
+}
+
+.tec-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.tec-vantagens h3 {
+  width: max-content;
+  margin-bottom: 8px;
+}
+
+.tec-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tec-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .tec-bg {
+    box-shadow: initial;
+  }
+
+  .tec {
+    grid-template-columns: 1fr;
+  }
+
+  .tec-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .tec-img {
+    display: none;
+  }
+
+  .tec a {
+    display: block;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tec-vantagens {
+    flex-direction: column;
+  }
+}

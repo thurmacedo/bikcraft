@@ -18,7 +18,7 @@
 .parceiros li {
   display: flex;
   padding: 32px;
-  border-left: 2px solid var(--c3);
+  border-left: 2px solid var(--c2);
 }
 
 .parceiros li:nth-child(5),
@@ -37,6 +37,10 @@
 @media (max-width: 800px) {
   .parceiros {
     padding-bottom: 60px;
+  }
+
+  .parceiros li {
+    padding: 20px;
   }
 
   .parceiros h2 {

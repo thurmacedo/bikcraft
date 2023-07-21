@@ -10,11 +10,16 @@
 .bikelist ul {
   display: flex;
   gap: 40px;
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  overflow: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+#bicicleta .bikelist ul {
+  padding: 0px 0px 20px 0px;
 }
 
 .bikelist li {
@@ -44,6 +49,11 @@
   width: 12px;
   margin-right: 8px;
   background: var(--p1);
+  transition: width 0.2s;
+}
+
+.bikelist a:hover h3::before {
+  width: 24px;
 }
 
 .bikelist li span {

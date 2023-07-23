@@ -1,5 +1,6 @@
 .seguros-bg {
-  background: var(--c11);
+  background: var(--c11) url("../../img/dec/bottom-left.svg") no-repeat bottom
+    40px left 20px;
 }
 
 .seguros {

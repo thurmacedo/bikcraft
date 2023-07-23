@@ -18,6 +18,8 @@
 .seguro-content {
   padding-top: 180px;
   padding-bottom: 180px;
+  background: url("../../img/dec/bottom-right.svg") no-repeat bottom 180px right
+    20px;
 }
 
 .seguro h2 {

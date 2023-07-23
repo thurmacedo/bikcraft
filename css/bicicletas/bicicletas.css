@@ -8,6 +8,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 40px;
 }
 
 .bicicletas-img {
@@ -76,7 +77,7 @@
 }
 
 @media (max-width: 800px) {
-  .bicicletas-bg{
+  .bicicletas-bg {
     background: var(--c11);
   }
 

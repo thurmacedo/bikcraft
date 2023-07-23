@@ -5,6 +5,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/bottom-left.svg") no-repeat bottom left 20px;
 }
 
 #bicicleta .titulo p {

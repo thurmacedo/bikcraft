@@ -18,9 +18,14 @@
   gap: 20px;
 }
 
+.bike-img img:first-child {
+  cursor: initial;
+}
+
 .bike-img img {
   flex: 1;
   min-width: 200px;
+  cursor: pointer;
 }
 
 .bike-img img:first-child {
